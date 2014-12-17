@@ -1,0 +1,106 @@
+version
+if(!file.exists("data")){dir.create("data")}
+getwd
+getwd()
+wd ..
+setwd(user/documents/workpace/Rpractice)
+setwd(users/documents/workpace/Rpractice)
+setwd(User/documents/workpace/Rpractice)
+setwd(/user/documents/workpace/Rpractice)
+setwd(/User/documents/workpace/Rpractice)
+setwd(Users/documents/workpace/Rpractice)
+getwd()
+setwd("/Users/documents/workpace/Rpractice")
+getwd()
+library(httr)
+oauth_endpoints("twitter")
+myapp <-oauth_app("twitter", key)
+library(httr)#
+#
+# 1. Find OAuth settings for twitter:#
+#    https://dev.twitter.com/docs/auth/oauth#
+oauth_endpoints("twitter")#
+#
+# 2. Register an application at https://apps.twitter.com/#
+#    Insert your values below - if secret is omitted, it will look it up in#
+#    the TWITTER_CONSUMER_SECRET environmental variable.#
+myapp <- oauth_app("twitter", key = "TYrWFPkFAkn4G5BbkWINYw")#
+#
+# 3. Get OAuth credentials#
+twitter_token <- oauth1.0_token(oauth_endpoints("twitter"), myapp)#
+#
+# 4. Use API#
+req <- GET("https://api.twitter.com/1.1/statuses/home_timeline.json",#
+  config(token = twitter_token))#
+stop_for_status(req)#
+content(req)
+library(httr)
+oauth_endpoints("twitter")
+myapp <-oauth_app("twitter", key)myapp <- oauth_app("twitter", key = "TYrWFPkFAkn4G5BbkWINYw")
+myapp <- oauth_app("twitter", key = "TYrWFPkFAkn4G5BbkWINYw
+twitter_token <- oauth1.0_token(oauth_endpoints("twitter"), myapp)
+myapp <- oauth_app("twitter", key = "TYrWFPkFAkn4G5BbkWINYw")
+library(tuneR)
+library("tuneR")
+library(tuneR)
+library("tuner")
+library("tuneR")
+tuneR.version
+version(tuneR)
+getwd()
+ls
+setwd("./documents/workspace/")
+getwd()
+list.files()
+setwd("./Rpractice")
+list.files()
+setwd("./data")
+list.files()
+library(xlsx)
+seemaData <-read.xlsx("./seema.xlsx",sheetIndex=1,header=T)
+head(seemaData,3)
+seemaData[seemaData=="#NULL!"]<-NA
+head(seemaData,3)
+seemaData(Age,3)
+seemaData.Age
+seemaData$Age
+n<-seemaData$Age
+avg(n)
+age <-seemaData$Age
+quantil(age, c(0,25,50,75,100))
+quantil(age, c(0,.25,.50,.75,1.00))
+quantile(age, c(0,.25,.50,.75,1.00))
+sd(age, na.rm=T)
+sd(age, na.rm=F)
+mean(age)
+head(seemaData,1)
+head(seemaData,2)
+new <-(seemaData$Living_Status,seemaData$Religion)
+new <-(seemaData$Living_Status seemaData$Religion)
+new[seemaData$Living_Status, seemaData$Religion]
+new[c(seemaData$Living_Status, seemaData$Religion)]
+[c(seemaData$Living_Status, seemaData$Religion)]
+new <-c(seemaData$Living_Status, seemaData$Religion)
+seemaData[new]
+seemaData[c(seemaData$Living_Status, seemaData$Religion)]
+seemaData[c(seemaData$Living_Status, seemaData$Religion),2]
+head(seemaData,2)
+seemaData[c("seemaData$Living_Status", "seemaData$Religion"),2]
+seemaData[c("seemaData$Living_Status", "seemaData$Religion"),4]
+seemaData[c("seemaData$Living_Status", "seemaData$Religion")]
+newData<-seemaData[which(seemaData$Gener=2 & seemaData$Education=1)]
+newData<-seemaData[which(seemaData$Gener=="2" & seemaData$Education=="1")]
+newData
+newData<-seemaData[which(seemaData$Gener==2 & seemaData$Education==1)]
+newData
+newData<-seemaData[which(seemaData$Gender==2 & seemaData$Education==1)]
+newData <-subset(seemaData, )
+newData<-seemaData[which(seemaData$Gener==2 & seemaData$Education==1)
+newData<-seemaData[which(seemaData$Gener==2 & seemaData$Education==1)
+head(seemaData,2)
+subset(seemaData, age <40, Marital_Status==1)
+subset(seemaData, age <40, Marital_Status==2)
+subset(seemaData, age >40, Marital_Status==2)
+subset
+install.packages("shiny")
+library(shiny)
